@@ -1,0 +1,30 @@
+# 操作系统和编辑器
+.DS_Store
+Thumbs.db
+
+# Python 相关
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# 虚拟环境与第三方库（本项目内置的 venv）
+bin/
+lib/
+lib/python3.11/
+backend/app/__pycache__/
+
+# 本地数据与上传内容
+data.db*
+uploads/
+
+# 临时或归档文件
+*.zip
+*.rtf
+
+# 前端常见（如有）
+node_modules/
+dist/
